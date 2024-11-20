@@ -3,10 +3,9 @@
   "description": "CodeIgniter4 Admin Boilerplate based on SB2 by jay",
   "keywords": [
       "codeigniter4",
-      "admin",
       "authentication",
       "authorization",
-      "ci4-boilerplate"
+      "boilerplate"
   ],
   "type": "library",
   "license": "MIT",
@@ -25,6 +24,8 @@
         "phpunit/phpunit": "^9.1",
         "fakerphp/faker": "^1.13"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "mauijay\\boilerplate\\": "src"
@@ -37,7 +38,5 @@
     },
     "scripts": {
       "test": "phpunit"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
