@@ -7,7 +7,7 @@ on:
     branches: [master]
 
 jobs:
-  first-job:
+  jay-build:
     runs-on: ubuntu-latest
     steps:
       - run: node --version
