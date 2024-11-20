@@ -53,5 +53,10 @@
           "@composer dump-autoload"
         ],
         "test": "phpunit"
+    },
+    "support": {
+        "forum": "https://github.com/mauijay/boilerplate/discussions",
+        "source": "https://github.com/mauijay/boilerplate",
+        "issues": "https://github.com/mauijay/boilerplate/issues"
     }
 }
