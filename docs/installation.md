@@ -5,7 +5,7 @@
 Using Composer is the easiest and fastest way to install the package. Follow these steps:
 
 ```console
-composer require MauiJay/boilerplate
+composer require mauijay/boilerplate
 ```
 
 Composer will download the package and add it to your project.
@@ -21,7 +21,7 @@ If you cannot use Composer or prefer to install the package manually, follow the
 1. Download the Package
 
 - First, download the **Boilerplate** package manually.
-- Visit the package’s GitHub repository and download the [latest version](https://github.com/MauiJay/boilerplate/releases).
+- Visit the package’s GitHub repository and download the [latest version](https://github.com/mauijay/boilerplate/releases).
 
   ### Alternatively, if you have the ZIP file of the package, copy it to your project directory
 

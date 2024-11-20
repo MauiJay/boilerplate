@@ -38,5 +38,5 @@ Ensure you have the following installed before starting:
 **1.** Add to a fresh ci4 install or your ci4 project
 
 ```bash
-composer require MauiJay/boilerplate
+composer require mauijay/boilerplate
 ```
