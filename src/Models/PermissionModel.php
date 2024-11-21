@@ -1,6 +1,6 @@
 <?php
 
-namespace julio101290\boilerplate\Models;
+namespace mauijay\boilerplate\Models;
 
 use Myth\Auth\Authorization\PermissionModel as BaseModel;
 

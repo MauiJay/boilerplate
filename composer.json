@@ -1,6 +1,14 @@
 {
   "name": "mauijay/boilerplate",
   "description": "CodeIgniter4 Admin Boilerplate based on SB2 by jay",
+  "require": {
+      "php": ">=8.1",
+      "another-vendor/package": "1.*",
+      "codeigniter4/framework": "^4.5",
+      "codeigniter4/shield": "^1.1",
+      "codeigniter4/translations" : "^4.0",
+      "firebase/php-jwt": "^6.10"
+  },
   "keywords": [
       "codeigniter4",
       "authentication",
@@ -16,47 +24,41 @@
           "role": "Developer"
       }
   ],
-  "homepage": "https://github.com/mauijay/boilerplate.git",
-  "require": {
-      "php": "^8.1",
-      "codeigniter4/framework": "^4.5",
-      "codeigniter4/shield": "^1.1",
-      "codeigniter4/translations" : "^4.0",
-      "firebase/php-jwt": "^6.10"
-    },
-    "require-dev": {
+  "homepage": "https://github.com/mauijay/boilerplate",
+  "require-dev": {
       "codeigniter4/devkit": "^1.2",
       "rector/rector": "^1.2",
       "fakerphp/faker": "^1.23",
       "mikey179/vfsstream": "^1.6",
       "phpunit/phpunit": "^10.5.16"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "autoload": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
         "psr-4": {
             "mauijay\\boilerplate\\": "src"
         }
-    },
-    "autoload-dev": {
+  },
+  "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
         }
-    },
-    "config": {
+  },
+  "config": {
         "allow-plugins": {
             "phpstan/extension-installer": true
         }
-    },
-    "scripts": {
+  },
+  "scripts": {
         "post-update-cmd": [
           "@composer dump-autoload"
         ],
-        "test": "phpunit"
-    },
-    "support": {
+        "test": "phpunit",
+        "fix": "vendor/bin/php-cs-fixer fix --verbose"
+  },
+  "support": {
         "forum": "https://github.com/mauijay/boilerplate/discussions",
         "source": "https://github.com/mauijay/boilerplate",
         "issues": "https://github.com/mauijay/boilerplate/issues"
-    }
+  }
 }

@@ -1,4 +1,7 @@
+name: ci build
+
 on: push
+
 jobs:
   first-job:
     runs-on: windows-latest

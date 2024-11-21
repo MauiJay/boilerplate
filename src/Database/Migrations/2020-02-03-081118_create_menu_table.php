@@ -1,6 +1,6 @@
 <?php
 
-namespace julio101290\boilerplate\Database\Migrations;
+namespace mauijay\boilerplate\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 

@@ -33,10 +33,10 @@ class AuthTestCase extends CIDatabaseTestCase
      *
      * @var string
      */
-    protected $namespace = ['Myth\Auth', 'mauijay\boilerplate'];
+    protected $namespace = ['Auth', 'mauijay\boilerplate'];
 
     /**
-     * @var \Myth\Auth\Models\UserModel
+     * @var UserModel
      */
     protected $users;
 
@@ -79,9 +79,9 @@ class AuthTestCase extends CIDatabaseTestCase
     protected function createUser(array $info = [])
     {
         $defaults = [
-            'email'    => 'fred@example.com',
-            'username' => 'Fred',
-            'password' => 'secret',
+            'email'    => 'brad@abc.com',
+            'username' => 'BPitt',
+            'password' => 'pass123',
         ];
         $info = array_merge($info, $defaults);
         $user = new User($info);
