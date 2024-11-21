@@ -66,6 +66,12 @@ cp env .env
 Customize env for your application, specifically the baseURL and any database settings.
 
 ```bash
+# .env file
+CI_ENVIRONMENT = development
+
+app.baseURL = 'http://localhost:8080'
+app.indexPage = ''
+
 database.default.hostname = localhost
 database.default.database = ci4
 database.default.username = root
@@ -78,7 +84,7 @@ database.default.port = 3306
 - Before continuing, make sure you have created a database and your db credentials for MySQL or use SQLite3 has been set in <strong>.env</strong> file.
 - Skipping this step will make database migration fail.
 
-```console
+```bash
 php spark 808:install
 -or-
 php spark:key:generate
