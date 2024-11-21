@@ -86,10 +86,12 @@ database.default.port = 3306
 
 ```bash
 php spark 808:install
+php spark shield:setup
 -or-
 php spark:key:generate
 php spark migrate --all
 php spark db:seed mainseeder
+php spark shield:user create
 php spark serve
 ```
 
