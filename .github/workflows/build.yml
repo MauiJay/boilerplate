@@ -8,6 +8,10 @@ jobs:
   release-project:
     name: Release project
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+      checks: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
